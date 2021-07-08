@@ -1,0 +1,14 @@
+{
+  "name": "durka_hive_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that provides access to useful functions.",
+  "main": "index.js",
+  "repository": "git@github.com:carlsmei/durka_hive_bot.git",
+  "author": "Carl Shurch <carlshurch@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "_moduleAliases": {},
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
