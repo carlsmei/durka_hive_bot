@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "config": "^3.3.6",
+    "js-yaml": "^4.1.0",
     "module-alias": "^2.2.2",
     "mongoose": "^5.13.2"
   },
