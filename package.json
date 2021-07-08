@@ -7,8 +7,12 @@
   "author": "Carl Shurch <carlshurch@gmail.com>",
   "license": "MIT",
   "private": true,
-  "_moduleAliases": {},
   "dependencies": {
-    "module-alias": "^2.2.2"
+    "config": "^3.3.6",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.13.2"
+  },
+  "_moduleAliases": {
+    "@db": "./libraries/db.js"
   }
 }
