@@ -16,6 +16,7 @@
   },
   "_moduleAliases": {
     "@db": "./libraries/db.js",
-    "@models": "./models"
+    "@models": "./models",
+		"@bot": "./bot.js"
   }
 }
