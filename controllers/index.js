@@ -9,7 +9,7 @@ const controllers = yaml.load(fs.readFileSync(file_path));
 
 for (const [key, value] of Object.entries(controllers)) {
 	if (typeof(value) == 'string') {
-		if (path.join(file_path, `../${value}.js`)) {
+		if (fs.existsSync(path.join(file_path, `../${value}.js`))) {
 			require('./' + value);
 		}
 		else {
