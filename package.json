@@ -17,6 +17,7 @@
   "_moduleAliases": {
     "@db": "./libraries/db.js",
     "@models": "./models",
-		"@bot": "./bot.js"
+		"@bot": "./bot.js",
+		"@language": "./libraries/language.js"
   }
 }
