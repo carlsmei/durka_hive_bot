@@ -255,6 +255,11 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
+telegram-keyboard@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/telegram-keyboard/-/telegram-keyboard-2.2.6.tgz#56e3c5d137938e3fd673843475280ecc70ea4d40"
+  integrity sha512-rfJn55Nwt5w2aWagtxCUnN4AM/6tK+SRO89NolfRuJD8XiPB4IDRxP7nqekodSEkvvUpSmmQxrRG8ZheHdUYqQ==
+
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"

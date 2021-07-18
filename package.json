@@ -12,7 +12,8 @@
 		"js-yaml": "^4.1.0",
 		"module-alias": "^2.2.2",
 		"mongoose": "^5.13.2",
-		"require-directory": "^2.1.1"
+		"require-directory": "^2.1.1",
+		"telegram-keyboard": "^2.2.6"
 	},
 	"_moduleAliases": {
 		"@db": "./libraries/db.js",
