@@ -2,7 +2,7 @@ const bot = require('@bot');
 const config = require('config');
 
 bot.start((ctx, next) => {
-	if (!ctx.user.get_data('start_touched', false)) {
+	if (!ctx.user.start_touched) {
 		let text = ''
 		let bot = config.get('backup_bot')
 
@@ -18,7 +18,9 @@ bot.start((ctx, next) => {
 		}
 
 		ctx.replyWithHTML(t('command.start', {bot_info: text}), {disable_web_page_preview: true});
-		ctx.user.set_data('start_touched', true);
+		
+		ctx.user.start_touched = true;
+		ctx.user.save();
 
 		next();
 	}
